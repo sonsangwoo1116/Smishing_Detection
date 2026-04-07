@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.env
+.venv/
+venv/
+*.db
+*.sqlite3
+.pytest_cache/
+.mypy_cache/
+alembic/versions/*.pyc
+
+# Android (별도 관리)
+android/
+
+# Frontend deps & build output
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Misc
+server.log
+*.zip
+nohup.out
